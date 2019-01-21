@@ -2,6 +2,6 @@ plugins {
     kotlin("jvm")
 }
 
-dependencies {
-    compile(kotlin("stdlib"))
-}
+kotlinProject()
+cordappProject()
+jupiterProject()
